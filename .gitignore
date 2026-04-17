@@ -1,0 +1,17 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+data/*.db
+!data/.gitkeep
+uploads/
+.streamlit/secrets.toml
+
+# Large media (demos, screen recordings). Host these on GitHub releases
+# or in your LinkedIn post, don't commit them to the repo.
+*.mov
+*.mp4
+*.webm
+*.zip

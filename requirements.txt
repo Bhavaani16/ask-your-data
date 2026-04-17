@@ -1,0 +1,17 @@
+streamlit>=1.38.0
+huggingface_hub>=0.26.0
+pandas>=2.2.0
+sqlalchemy>=2.0.30
+plotly>=5.22.0
+python-dotenv>=1.0.1
+sqlparse>=0.5.0
+
+# Optional database drivers. Installed by default so PMs can connect to the
+# two most common systems out of the box. Remove any you don't need.
+psycopg2-binary>=2.9.9   # PostgreSQL / Redshift
+pymysql>=1.1.1           # MySQL / MariaDB
+# For other databases, install the appropriate driver yourself, e.g.:
+#   pip install "snowflake-sqlalchemy>=1.6.1"
+#   pip install "sqlalchemy-bigquery>=1.11.0"
+#   pip install pyodbc                                  # SQL Server
+#   pip install cx_Oracle                               # Oracle
